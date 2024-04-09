@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.html {
+  overflow-x: hidden;
+}
+
+.Header {
+  position: fixed;
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;  
+  z-index: 100;
+}
+
+.Body {
+  margin-top: 52px;
+}
